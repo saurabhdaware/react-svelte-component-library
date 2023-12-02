@@ -1,0 +1,17 @@
+{
+  "name": "edge-library",
+  "version": "0.0.1",
+  "description": "`@cross-platform-tools/vite-plugin` example of react + react-native library setup",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/node": "^20.10.1",
+    "vitest": "^0.34.6"
+  },
+  "scripts": {
+    "postinstall": "pnpm --filter node-edge-library build",
+    "start": "pnpm --filter node-edge-app node && pnpm --filter node-edge-app edge"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
