@@ -4,6 +4,10 @@
     "types": [
       "vite/client"
     ],
+    "moduleSuffixes": [
+      ".react",
+      ""
+    ],
   },
   "include": ["./src"]
 }
