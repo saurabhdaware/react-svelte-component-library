@@ -1,7 +1,9 @@
-<script setup>
-import { Button } from 'react-vue-library'
+<script setup lang="ts">
+  import { ref } from 'vue'
+  import { Button } from 'react-vue-library'
+  const count = ref(0);
 </script>
 
 <template>
-  <Button class="primary">hi</Button>
+  <Button @click="count++">Hello from Vue App: {{count}}</Button>
 </template>

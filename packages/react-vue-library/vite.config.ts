@@ -15,7 +15,6 @@ export default defineConfig({
       supportedPlatforms: ["vue", "react"],
       entryDir: 'src',
       outDir: 'dist',
-      outputTypes: false,
     }),
   ],
   build: {

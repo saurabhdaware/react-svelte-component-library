@@ -1,6 +1,6 @@
 # Node x Edge Library Example
 
-[`@cross-platform-tools/vite-plugin`](https://www.npmjs.com/package/@cross-platform-tools/vite-plugin) example of node + edge library setup
+[`@cross-platform-tools/vite-plugin`](https://www.npmjs.com/package/@cross-platform-tools/vite-plugin) example of react + vue component library setup
 
 [Open in Stackblitz](https://stackblitz.com/~/github.com/saurabhdaware/node-edge-library?view=editor)
 

@@ -8,13 +8,14 @@
   "exports": {
     ".": {
       "vue": "./dist/vue/production/index.js",
+      "types": "./dist/types/index.d.ts",
       "default": "./dist/react/production/index.js"
     },
     "./vue/styles.css": "./dist/vue/production/style.css",
     "./react/styles.css": "./dist/react/production/style.css"
   },
   "devDependencies": {
-    "@cross-platform-tools/vite-plugin": "^0.1.2",
+    "@cross-platform-tools/vite-plugin": "^0.1.4",
     "@types/react": "^18.2.40",
     "@vitejs/plugin-react": "^4.2.0",
     "@vitejs/plugin-vue": "^4.5.1",
