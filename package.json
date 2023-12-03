@@ -9,7 +9,10 @@
     "typescript": "^5.2.2"
   },
   "scripts": {
-    "start": "pnpm --filter node-edge-app node && pnpm --filter node-edge-app edge"
+    "postinstall": "pnpm --filter react-vue-library build",
+    "dev:react": "pnpm --filter react-app dev",
+    "dev:vue": "pnpm --filter vue-app dev",
+    "dev": "pnpm run dev:vue"
   },
   "keywords": [],
   "author": "",

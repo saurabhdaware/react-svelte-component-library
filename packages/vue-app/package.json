@@ -1,5 +1,5 @@
 {
-  "name": "node-edge-app",
+  "name": "vue-app",
   "type": "module",
   "scripts": {
     "dev": "vite",
